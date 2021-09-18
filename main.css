@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  margin: 10px;
+  user-select: none;
+}
+
+.btn:hover {
+  border: 1px white solid;
+}
+
+.clear {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(236, 31, 31);
+}
+.solve {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(75, 184, 12);
+}
